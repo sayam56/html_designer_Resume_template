@@ -306,6 +306,48 @@ body {
 }
 
   
+/* -------------------Work Experience Section------------------- */
+
+.workExp{
+  //border: 1px solid red;
+  width: 440px;
+
+  .workExpGraphics{
+    .linePath{
+      .upwardsLine{
+        background-color: var(--fontColor);
+        //margin-top: 20px;
+        margin-left: 150px;
+        width: 1px;
+        height: 15px;
+      }
+
+      .rightwardsLine{
+        background-color: var(--fontColor);
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 220px;
+        height: 1px;
+      }
+    }
+
+    .workIcon{
+      float: right;
+      width: 70px;
+      margin-top: -50px;
+    }
+  }
+
+  .workExpHeader{
+    //margin-top: 40px;
+    margin-left: 90px;
+    color: var(--headerColor);
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-family: 'gliny-hand-dense';
+  }
+
+}
 
 
 

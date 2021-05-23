@@ -314,6 +314,40 @@ body {
   font-size: 14px;
 }
 
+/* -------------------Work Experience Section------------------- */
+.workExp {
+  width: 440px;
+}
+
+.workExp .workExpGraphics .linePath .upwardsLine {
+  background-color: var(--fontColor);
+  margin-left: 150px;
+  width: 1px;
+  height: 15px;
+}
+
+.workExp .workExpGraphics .linePath .rightwardsLine {
+  background-color: var(--fontColor);
+  margin-top: 20px;
+  margin-left: 150px;
+  width: 220px;
+  height: 1px;
+}
+
+.workExp .workExpGraphics .workIcon {
+  float: right;
+  width: 70px;
+  margin-top: -50px;
+}
+
+.workExp .workExpHeader {
+  margin-left: 90px;
+  color: var(--headerColor);
+  font-size: 27px;
+  letter-spacing: 3px;
+  font-family: 'gliny-hand-dense';
+}
+
 /* ------------------------------------------------------------------------------- */
 @media print {
   html {
