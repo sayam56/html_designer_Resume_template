@@ -204,7 +204,7 @@ body {
   text-align: right;
   width: 330px;
   margin-left: -130px;
-  margin-top: 10px;
+  margin-top: 15px;
   letter-spacing: 2px;
 
   p{
@@ -213,6 +213,99 @@ body {
 }
 
 /* --------------------------Contact Section----------------- */
+
+.contact{
+  width: 335px;
+  margin-top: -100px;
+
+  #leftGraphics{
+    float: left;
+    width: 125px;
+    height: 190px;
+
+    .linePath{
+
+      .leftWardsLine{
+        background-color: var(--fontColor);
+        margin-top: 15px;
+        margin-left: 50px;
+        width: 70px;
+        height: 1px;
+      }
+
+      .upWardsLine{
+        background-color: var(--fontColor);
+        margin-top: 0px;
+        margin-bottom: 5px;
+        margin-left: 50px;
+        width: 1px;
+        height: 100px;
+      }
+      
+    }
+
+    .contactIcon{
+      width: 50px;
+      margin-left: 35px;
+    }
+    
+  }
+ 
+  #rightInfoSvgBox{
+    display: block;
+    float: right;
+    width: 100px;
+    height: 100px;
+
+    .contactBoxImg{
+      margin-left: -110px;
+      width: 210px;
+    }
+
+    .contactHeader{
+     margin-top: -190px;
+     margin-left: -50px;
+     color: var(--headerColor);
+     font-size: 28px;
+     letter-spacing: 3px;
+     font-family: 'gliny-hand-dense';
+    }
+
+    .contactItemData{
+      color: var(--fontColor);
+      font-size: 12.5px;
+      //border: 1px solid red;
+      width: 150px;
+      margin-left: -50px;
+      margin-top: 15px;
+      letter-spacing: 0px;
+
+      #address{
+        margin-top: 15px;
+      }
+
+      p{
+        margin-top: 5px;
+        font-family: 'futura';
+       
+      }
+      .link{
+        //border: 1px solid red;
+        color: var(--fontColor);
+        font-family: 'futura';
+        font-size: 13.5px;
+        text-decoration: none;
+        margin-bottom: 5px;
+      }
+      .link:hover{
+        text-decoration: underline;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+  
 
 
 

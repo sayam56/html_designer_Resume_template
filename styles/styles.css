@@ -220,7 +220,7 @@ body {
   text-align: right;
   width: 330px;
   margin-left: -130px;
-  margin-top: 10px;
+  margin-top: 15px;
   letter-spacing: 2px;
 }
 
@@ -229,6 +229,91 @@ body {
 }
 
 /* --------------------------Contact Section----------------- */
+.contact {
+  width: 335px;
+  margin-top: -100px;
+}
+
+.contact #leftGraphics {
+  float: left;
+  width: 125px;
+  height: 190px;
+}
+
+.contact #leftGraphics .linePath .leftWardsLine {
+  background-color: var(--fontColor);
+  margin-top: 15px;
+  margin-left: 50px;
+  width: 70px;
+  height: 1px;
+}
+
+.contact #leftGraphics .linePath .upWardsLine {
+  background-color: var(--fontColor);
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  width: 1px;
+  height: 100px;
+}
+
+.contact #leftGraphics .contactIcon {
+  width: 50px;
+  margin-left: 35px;
+}
+
+.contact #rightInfoSvgBox {
+  display: block;
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+.contact #rightInfoSvgBox .contactBoxImg {
+  margin-left: -110px;
+  width: 210px;
+}
+
+.contact #rightInfoSvgBox .contactHeader {
+  margin-top: -190px;
+  margin-left: -50px;
+  color: var(--headerColor);
+  font-size: 28px;
+  letter-spacing: 3px;
+  font-family: 'gliny-hand-dense';
+}
+
+.contact #rightInfoSvgBox .contactItemData {
+  color: var(--fontColor);
+  font-size: 12.5px;
+  width: 150px;
+  margin-left: -50px;
+  margin-top: 15px;
+  letter-spacing: 0px;
+}
+
+.contact #rightInfoSvgBox .contactItemData #address {
+  margin-top: 15px;
+}
+
+.contact #rightInfoSvgBox .contactItemData p {
+  margin-top: 5px;
+  font-family: 'futura';
+}
+
+.contact #rightInfoSvgBox .contactItemData .link {
+  color: var(--fontColor);
+  font-family: 'futura';
+  font-size: 13.5px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.contact #rightInfoSvgBox .contactItemData .link:hover {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
 /* ------------------------------------------------------------------------------- */
 @media print {
   html {
