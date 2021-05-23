@@ -5,8 +5,32 @@
 }
 
 @font-face {
-  font-family: "futuran";
-  src: url("../assets/fonts/futuran.ttf");
+  font-family: "futura";
+  src: url("../assets/fonts/futura.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "futura-medium";
+  src: url("../assets/fonts/futura-medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "futura-demiBold";
+  src: url("../assets/fonts/futura-demiBold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "futura-bold";
+  src: url("../assets/fonts/futura-bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "futura-extrabold";
+  src: url("../assets/fonts/futura-extrabold.ttf");
   font-display: swap;
 }
 
@@ -15,6 +39,7 @@
   --hovercolor: black;
   --bgcolor: #fffdfd;
   --headerColor: #b1d56d;
+  --fontColor: #cccccc;
 }
 
 * {
@@ -27,7 +52,8 @@
 
 body {
   color: #555;
-  background: var(--bgcolor);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#20d6d6), to(#b1d56d));
+  background-image: linear-gradient(to bottom right, #20d6d6, #b1d56d);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -36,10 +62,10 @@ body {
 .resume {
   width: 8.5in;
   height: 12in;
-  border-radius: 5px;
+  border-radius: 2px;
   background: var(--themecolor);
-  -webkit-box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #1a1a1a48;
-          box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #1a1a1a48;
+  -webkit-box-shadow: 13px 13px 20px #044728, -13px -13px 20px #28c7b248;
+          box-shadow: 13px 13px 20px #044728, -13px -13px 20px #28c7b248;
   margin: 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,11 +77,15 @@ body {
 }
 
 /* --------------------headerContainer-------------------------------------- */
-.personalInfo {
+.upperHeader {
   margin-top: 50px;
-  font-family: 'futuran';
+}
+
+.personalInfo {
+  font-family: 'futura';
   margin-left: 2px;
   width: 560px;
+  float: left;
 }
 
 .headerContainer {
@@ -64,21 +94,22 @@ body {
 
 .selfName {
   color: var(--headerColor);
-  font-family: 'futuran';
-  font-size: 28px;
-  letter-spacing: 6px;
-  margin-left: 55px;
+  font-family: 'futura';
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-left: 40px;
   font-weight: normal;
 }
 
 .selfDesignation {
   text-align: right;
   margin-top: 10px;
-  margin-left: 110px;
+  margin-left: 120px;
   color: white;
   font-size: 16px;
   letter-spacing: 4px;
   font-weight: lighter;
+  font-family: 'futura-medium';
 }
 
 #leftPersonal {
@@ -125,6 +156,79 @@ body {
   border: 2px solid #ebebeb;
 }
 
+/* ----------------------------------------------right side hello card -----------------*/
+.helloCard {
+  float: right;
+  width: 250px;
+}
+
+.helloCardLeftLine {
+  background-color: var(--fontColor);
+  margin-top: 75px;
+  margin-left: -5px;
+  width: 115px;
+  height: 1px;
+}
+
+.helloCardIcon {
+  margin-top: -35px;
+  margin-left: 110px;
+  width: 95px;
+}
+
+.helloCardBottomPath .smallDownwards {
+  background-color: var(--fontColor);
+  margin-top: -5px;
+  margin-left: 150px;
+  width: 1px;
+  height: 30px;
+}
+
+.helloCardBottomPath .largeLeftwards, .helloCardBottomPath .smallLeftwards {
+  background-color: var(--fontColor);
+  margin-top: 0px;
+  margin-left: 51px;
+  width: 100px;
+  height: 1px;
+}
+
+.helloCardBottomPath .largeDownwards {
+  background-color: var(--fontColor);
+  margin-top: -1px;
+  margin-left: 50px;
+  width: 1px;
+  height: 60px;
+}
+
+.helloCardBottomPath .smallLeftwards {
+  width: 25px;
+  margin-left: 50px;
+}
+
+.hello {
+  margin-top: -20px;
+  margin-left: 90px;
+  color: var(--headerColor);
+  font-size: 36px;
+  letter-spacing: 6px;
+  font-family: 'gliny-hand-dense';
+}
+
+.selfIntro {
+  color: var(--fontColor);
+  font-size: 12.5px;
+  text-align: right;
+  width: 330px;
+  margin-left: -130px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.selfIntro p {
+  font-family: 'futura';
+}
+
+/* --------------------------Contact Section----------------- */
 /* ------------------------------------------------------------------------------- */
 @media print {
   html {
