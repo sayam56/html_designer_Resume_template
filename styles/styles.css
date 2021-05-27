@@ -76,9 +76,19 @@ body {
           flex-direction: column;
 }
 
+.background {
+  padding-top: 30px;
+}
+
+.background img {
+  position: relative;
+  z-index: 1;
+}
+
 /* --------------------headerContainer-------------------------------------- */
 .upperHeader {
-  margin-top: 50px;
+  margin-top: -845px;
+  margin-left: 20px;
 }
 
 .personalInfo {
@@ -143,8 +153,8 @@ body {
 }
 
 .image {
-  width: 190px;
-  height: 190px;
+  width: 205px;
+  height: 205px;
 }
 
 .image img {
