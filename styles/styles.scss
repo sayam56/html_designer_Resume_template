@@ -67,7 +67,7 @@ body {
 
   img{
     position: relative;
-    z-index: 1;
+    z-index: 0;
   }
 }
 
@@ -123,8 +123,8 @@ body {
   float: right;
   width: 200px; //300
   background-color: var(--themecolor);
-  margin-top: -210px;
-  margin-right: 20px;
+  margin-top: -212px;
+  margin-right: 18.5px;
   text-align: right;
 }
 
@@ -147,6 +147,7 @@ body {
 .helloCard{
   float: right;
   width: 250px;
+  //border: 1px solid red;
 }
 
 .helloCardLeftLine{
@@ -163,42 +164,9 @@ body {
   width: 95px;
 }
 
-.helloCardBottomPath{
-
-  .smallDownwards{
-    background-color: var(--fontColor);
-    margin-top: -5px;
-    margin-left: 150px;
-    width: 1px;
-    height: 30px;
-  }
-  
-  .largeLeftwards, .smallLeftwards{
-    background-color: var(--fontColor);
-    margin-top: 0px;
-    margin-left: 51px;
-    width: 100px;
-    height: 1px;
-  }
-  
-  .largeDownwards{
-    background-color: var(--fontColor);
-    margin-top: -1px;
-    margin-left: 50px;
-    width: 1px;
-    height: 60px;
-  }
-  
-  .smallLeftwards{
-    width: 25px;
-    margin-left: 50px;
-  }
-  
-}
-
 .hello{
-     margin-top: -20px;
-     margin-left: 90px;
+     margin-top: -35px;
+     margin-left: 120px;
      color: var(--headerColor);
      font-size: 36px;
      letter-spacing: 6px;
@@ -212,7 +180,7 @@ body {
  // border: 1px solid red;
   text-align: right;
   width: 330px;
-  margin-left: -130px;
+  margin-left: -100px;
   margin-top: 15px;
   letter-spacing: 2px;
 
@@ -225,54 +193,21 @@ body {
 
 .contact{
   width: 335px;
-  margin-top: -100px;
+  margin-top: -120px;
+  position: inherit;
+  z-index: 99;
 
-  #leftGraphics{
-    float: left;
-    width: 125px;
-    height: 190px;
-
-    .linePath{
-
-      .leftWardsLine{
-        background-color: var(--fontColor);
-        margin-top: 15px;
-        margin-left: 50px;
-        width: 70px;
-        height: 1px;
-      }
-
-      .upWardsLine{
-        background-color: var(--fontColor);
-        margin-top: 0px;
-        margin-bottom: 5px;
-        margin-left: 50px;
-        width: 1px;
-        height: 100px;
-      }
-      
-    }
-
-    .contactIcon{
-      width: 50px;
-      margin-left: 35px;
-    }
-    
-  }
  
   #rightInfoSvgBox{
     display: block;
     float: right;
     width: 100px;
     height: 100px;
-
-    .contactBoxImg{
-      margin-left: -110px;
-      width: 210px;
-    }
+    margin-top: 220px;
+    // border: 1px solid red;
 
     .contactHeader{
-     margin-top: -190px;
+     margin-top: -185px;
      margin-left: -50px;
      color: var(--headerColor);
      font-size: 28px;
@@ -280,17 +215,30 @@ body {
      font-family: 'gliny-hand-dense';
     }
 
+
     .contactItemData{
       color: var(--fontColor);
       font-size: 12.5px;
       //border: 1px solid red;
       width: 150px;
-      margin-left: -50px;
-      margin-top: 15px;
+      margin-left: -35px;
+      margin-top: 5px;
       letter-spacing: 0px;
+      margin-bottom: 12px;
+      // border: 1px solid red;
 
-      #address{
-        margin-top: 15px;
+      a{
+        //border: 1px solid red;
+        color: var(--fontColor);
+        font-family: 'futura';
+        font-size: 13.5px;
+        text-decoration: none;
+        margin-bottom: 10px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        font-size: 14.5px;
       }
 
       p{
@@ -298,19 +246,9 @@ body {
         font-family: 'futura';
        
       }
-      .link{
-        //border: 1px solid red;
-        color: var(--fontColor);
-        font-family: 'futura';
-        font-size: 13.5px;
-        text-decoration: none;
-        margin-bottom: 5px;
-      }
-      .link:hover{
-        text-decoration: underline;
-        font-size: 14px;
-      }
+      
     }
+
   }
 }
 
@@ -321,37 +259,11 @@ body {
   //border: 1px solid red;
   width: 440px;
 
-  .workExpGraphics{
-    .linePath{
-      .upwardsLine{
-        background-color: var(--fontColor);
-        //margin-top: 20px;
-        margin-left: 150px;
-        width: 1px;
-        height: 15px;
-      }
-
-      .rightwardsLine{
-        background-color: var(--fontColor);
-        margin-top: 20px;
-        margin-left: 150px;
-        width: 220px;
-        height: 1px;
-      }
-    }
-
-    .workIcon{
-      float: right;
-      width: 70px;
-      margin-top: -50px;
-    }
-  }
-
   .workExpHeader{
-    //margin-top: 40px;
-    margin-left: 90px;
+    margin-top: -80px;
+    margin-left: 140px;
     color: var(--headerColor);
-    font-size: 27px;
+    font-size: 28px;
     letter-spacing: 3px;
     font-family: 'gliny-hand-dense';
   }

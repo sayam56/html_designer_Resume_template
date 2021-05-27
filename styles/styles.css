@@ -82,7 +82,7 @@ body {
 
 .background img {
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 /* --------------------headerContainer-------------------------------------- */
@@ -147,8 +147,8 @@ body {
   float: right;
   width: 200px;
   background-color: var(--themecolor);
-  margin-top: -210px;
-  margin-right: 20px;
+  margin-top: -212px;
+  margin-right: 18.5px;
   text-align: right;
 }
 
@@ -186,38 +186,9 @@ body {
   width: 95px;
 }
 
-.helloCardBottomPath .smallDownwards {
-  background-color: var(--fontColor);
-  margin-top: -5px;
-  margin-left: 150px;
-  width: 1px;
-  height: 30px;
-}
-
-.helloCardBottomPath .largeLeftwards, .helloCardBottomPath .smallLeftwards {
-  background-color: var(--fontColor);
-  margin-top: 0px;
-  margin-left: 51px;
-  width: 100px;
-  height: 1px;
-}
-
-.helloCardBottomPath .largeDownwards {
-  background-color: var(--fontColor);
-  margin-top: -1px;
-  margin-left: 50px;
-  width: 1px;
-  height: 60px;
-}
-
-.helloCardBottomPath .smallLeftwards {
-  width: 25px;
-  margin-left: 50px;
-}
-
 .hello {
-  margin-top: -20px;
-  margin-left: 90px;
+  margin-top: -35px;
+  margin-left: 120px;
   color: var(--headerColor);
   font-size: 36px;
   letter-spacing: 6px;
@@ -229,7 +200,7 @@ body {
   font-size: 12.5px;
   text-align: right;
   width: 330px;
-  margin-left: -130px;
+  margin-left: -100px;
   margin-top: 15px;
   letter-spacing: 2px;
 }
@@ -241,35 +212,9 @@ body {
 /* --------------------------Contact Section----------------- */
 .contact {
   width: 335px;
-  margin-top: -100px;
-}
-
-.contact #leftGraphics {
-  float: left;
-  width: 125px;
-  height: 190px;
-}
-
-.contact #leftGraphics .linePath .leftWardsLine {
-  background-color: var(--fontColor);
-  margin-top: 15px;
-  margin-left: 50px;
-  width: 70px;
-  height: 1px;
-}
-
-.contact #leftGraphics .linePath .upWardsLine {
-  background-color: var(--fontColor);
-  margin-top: 0px;
-  margin-bottom: 5px;
-  margin-left: 50px;
-  width: 1px;
-  height: 100px;
-}
-
-.contact #leftGraphics .contactIcon {
-  width: 50px;
-  margin-left: 35px;
+  margin-top: -120px;
+  position: inherit;
+  z-index: 99;
 }
 
 .contact #rightInfoSvgBox {
@@ -277,15 +222,11 @@ body {
   float: right;
   width: 100px;
   height: 100px;
-}
-
-.contact #rightInfoSvgBox .contactBoxImg {
-  margin-left: -110px;
-  width: 210px;
+  margin-top: 220px;
 }
 
 .contact #rightInfoSvgBox .contactHeader {
-  margin-top: -190px;
+  margin-top: -185px;
   margin-left: -50px;
   color: var(--headerColor);
   font-size: 28px;
@@ -297,13 +238,23 @@ body {
   color: var(--fontColor);
   font-size: 12.5px;
   width: 150px;
-  margin-left: -50px;
-  margin-top: 15px;
+  margin-left: -35px;
+  margin-top: 5px;
   letter-spacing: 0px;
+  margin-bottom: 12px;
 }
 
-.contact #rightInfoSvgBox .contactItemData #address {
-  margin-top: 15px;
+.contact #rightInfoSvgBox .contactItemData a {
+  color: var(--fontColor);
+  font-family: 'futura';
+  font-size: 13.5px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.contact #rightInfoSvgBox .contactItemData a:hover {
+  text-decoration: underline;
+  font-size: 14.5px;
 }
 
 .contact #rightInfoSvgBox .contactItemData p {
@@ -311,49 +262,16 @@ body {
   font-family: 'futura';
 }
 
-.contact #rightInfoSvgBox .contactItemData .link {
-  color: var(--fontColor);
-  font-family: 'futura';
-  font-size: 13.5px;
-  text-decoration: none;
-  margin-bottom: 5px;
-}
-
-.contact #rightInfoSvgBox .contactItemData .link:hover {
-  text-decoration: underline;
-  font-size: 14px;
-}
-
 /* -------------------Work Experience Section------------------- */
 .workExp {
   width: 440px;
 }
 
-.workExp .workExpGraphics .linePath .upwardsLine {
-  background-color: var(--fontColor);
-  margin-left: 150px;
-  width: 1px;
-  height: 15px;
-}
-
-.workExp .workExpGraphics .linePath .rightwardsLine {
-  background-color: var(--fontColor);
-  margin-top: 20px;
-  margin-left: 150px;
-  width: 220px;
-  height: 1px;
-}
-
-.workExp .workExpGraphics .workIcon {
-  float: right;
-  width: 70px;
-  margin-top: -50px;
-}
-
 .workExp .workExpHeader {
-  margin-left: 90px;
+  margin-top: -80px;
+  margin-left: 140px;
   color: var(--headerColor);
-  font-size: 27px;
+  font-size: 28px;
   letter-spacing: 3px;
   font-family: 'gliny-hand-dense';
 }
