@@ -179,7 +179,7 @@ body {
   margin-left: -100px;
 }
 
-.selfIntro, .workDesc{
+.selfIntro, .workDesc, .eduDesc{
   color: var(--fontColor);
   font-size: 12.5px;
  // border: 1px solid red;
@@ -263,21 +263,25 @@ body {
   letter-spacing: 3px;
 
 }
+
+.header{
+  color: var(--headerColor);
+  font-size: 28px;
+  letter-spacing: 3px;
+  font-family: 'gliny-hand-dense';
+}
 .workExp{
   //border: 1px solid red;
   width: 440px;
   
   .workInfo{
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .workExpHeader{
-    margin-top: -80px;
+    margin-top: -75px;
     margin-left: 125px;
-    color: var(--headerColor);
-    font-size: 28px;
-    letter-spacing: 3px;
-    font-family: 'gliny-hand-dense';
+
   }
   .workExpItem{
     margin-bottom: 79px;
@@ -313,6 +317,63 @@ body {
     }
   }
 
+}
+
+/* --------------------------------------Education----------------- */
+.education{
+  position: relative;
+  // border: 1px solid red;
+  width: 335px;
+  height: 355px;
+  margin-left: 475px;
+  margin-top: -265px;
+
+  .eduHeader{
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+  .eduItem{
+    text-align: right;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+
+
+    .eduDetails{
+      border: 1px solid transparent;
+      width: 265px;
+
+      .eduTitle1{
+        margin-top: 18px;
+      }
+      .eduTitle2{
+        margin-top: 17px;
+      }
+      .eduTitle3{
+        margin-top: 25px;
+      }
+      .eduDesc{
+        width: 265px;
+      }
+    }
+
+    .time{
+      position: relative;
+      float: right;
+      // border: 1px solid green;
+      font-size: 14px;
+      height: 50px;
+      margin-right: 5px;
+      margin-top: -65px;
+    }
+
+    .time2{
+      margin-top: -63px;
+    }
+
+    .time3{
+      margin-top: -64px;
+    }
+  }
 }
 
 
