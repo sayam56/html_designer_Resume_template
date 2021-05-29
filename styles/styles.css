@@ -196,16 +196,19 @@ body {
 }
 
 .selfIntro {
+  text-align: right;
+  margin-top: 15px;
+  margin-left: -100px;
+}
+
+.selfIntro, .workDesc {
   color: var(--fontColor);
   font-size: 12.5px;
-  text-align: right;
   width: 330px;
-  margin-left: -100px;
-  margin-top: 15px;
   letter-spacing: 2px;
 }
 
-.selfIntro p {
+.selfIntro p, .workDesc p {
   font-family: 'futura';
 }
 
@@ -263,17 +266,63 @@ body {
 }
 
 /* -------------------Work Experience Section------------------- */
+.title {
+  color: var(--bgcolor);
+  font-family: 'futura';
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
 .workExp {
   width: 440px;
 }
 
+.workExp .workInfo {
+  margin-top: 15px;
+}
+
 .workExp .workExpHeader {
   margin-top: -80px;
-  margin-left: 140px;
+  margin-left: 125px;
   color: var(--headerColor);
   font-size: 28px;
   letter-spacing: 3px;
   font-family: 'gliny-hand-dense';
+}
+
+.workExp .workExpItem {
+  margin-bottom: 79px;
+  border: 1px solid transparent;
+}
+
+.workExp .workLeftGraphics {
+  float: left;
+  width: 100px;
+}
+
+.workExp .workLeftGraphics .time {
+  position: relative;
+  margin-left: 55px;
+  margin-top: 3px;
+  color: var(--themecolor);
+  font-family: 'futura-medium';
+}
+
+.workExp .workDetails {
+  display: block;
+  float: right;
+  width: 330px;
+}
+
+.workExp .workDetails .workTitle {
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.workExp .workDetails .workDesc {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
 /* ------------------------------------------------------------------------------- */
