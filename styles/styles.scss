@@ -419,6 +419,25 @@ body {
   }
 }
 
+/* ---------------------Passions Section------------------ */
+.passions{
+  .passionHeader{
+    margin-left: 680px;
+    margin-top: -170px;
+  }
+
+  .passionItems{
+    color: var(--fontColor);
+    font-family: 'future-medium';
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-left: 680px;
+    p{
+      margin-top: 10px;
+    }
+  }
+}
+
 /* ------------------------------------------------------------------------------- */
 
 @media print {

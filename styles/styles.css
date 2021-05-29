@@ -426,6 +426,24 @@ body {
   grid-row-gap: 40px;
 }
 
+/* ---------------------Passions Section------------------ */
+.passions .passionHeader {
+  margin-left: 680px;
+  margin-top: -170px;
+}
+
+.passions .passionItems {
+  color: var(--fontColor);
+  font-family: 'future-medium';
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  margin-left: 680px;
+}
+
+.passions .passionItems p {
+  margin-top: 10px;
+}
+
 /* ------------------------------------------------------------------------------- */
 @media print {
   html {
