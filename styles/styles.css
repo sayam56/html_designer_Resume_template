@@ -386,6 +386,23 @@ body {
   margin-top: -64px;
 }
 
+/* --------------------------Language section------------------- */
+.lang .langHeader {
+  margin-left: 130px;
+  margin-top: -10px;
+}
+
+.lang .langDetails {
+  color: var(--fontColor);
+  font-family: 'futura-medium';
+  letter-spacing: 1.5px;
+  margin-left: 105px;
+}
+
+.lang .langDetails p {
+  margin-top: 25px;
+}
+
 /* ------------------------------------------------------------------------------- */
 @media print {
   html {
